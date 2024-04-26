@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Name: Joshua Valera
+       Project: Photo Gallery 
+       Class: GIT 337
+  -->
+<head>
+    <title>TK Photography</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <header>
+        <h1 id="Title">TK Photography</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="about">    
+            <h2 id="about">About</h2>
+            <p><br>Hello!</br> <br>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. Landscape photography is my specialty and it's taken me all over the world.</br></p>
+        </section>
+
+        <section class="gallery">
+            <h2 id="gallery">Gallery</h2>
+            <p><br>Here are some highlights of my work. The locations and year are in the caption.</br></p>
+            <div class="images">
+            <figure>
+                <img src="images/Chile.png">
+            </figure>
+            <figure>
+                <figcaption class="brighten">
+                <img src="images/Guatemala.png">
+            </figure>
+            <figure>
+                <img src="images/Hawaii.png">
+            </figure>
+            <figure>
+                <img src="images/Iran.png">
+            </figure>
+            <figure>
+                <img src="images/Ireland.png">
+            </figure>
+            <figure>
+                <img src="images/Italy.png">
+            </figure>
+            <figure> 
+                <img src="images/Moab-Desert.png">
+            </figure>
+            <figure>
+                <img src="images/Rocky-Mountains.png">
+            </figure>
+            <figure>
+                <img src="images/Switzerland.png">
+            </figure>
+            <figure>
+                <img src="images/UK.png">
+            </figure>
+            <figure>
+                <img src="images/USA.png">
+            </figure>
+            <figure>
+                <img src="images/Wyoming.png">
+            </figure>
+            </div>
+        </section>
+    </main>
+
+    <form class="contact">
+        <h2 id="contact">Contact</h2>
+        <p>Please fill out this form and I'll connect with you soon.</p>
+
+        <h3>Contact Information</h3>
+        <label for="name">Name<input type="text" placeholder="Your full name" id="name" name="name"></label>
+        <label for="email">Email<input type="text" placeholder="Enter your email address" id="email" name="email"></label>
+        <label for="message">Message<input type="text" placeholder="What can I help you with?" id="message" name="message"></label>
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+
+    <footer>
+        <small>Copyright 2021 TK Photography</small>
+    </footer>
+</body>
+</html>
